@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thivaghar K B - Python Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Remix Icon for Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="#" class="logo">Thiva<span>ghar</span></a>
+
+        <div class="menu-btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+        </div>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Thivaghar K B</h1>
+                <h2 class="title">Python Developer</h2>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in touch</a>
+                    <a href="#" class="btn btn-outline">My Resume</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-bg-shapes"></div>
+                <div class="profile-glow"></div>
+                <img src="images/profile.png" alt="Profile Picture" class="profile-img">
+            </div>
+        </section>
+
+        <section class="skills-bar">
+            <!-- Icons using Devicon/Remixicon or text -->
+            <div class="skill-item">
+                <i class="ri-code-s-slash-line"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-database-2-line"></i>
+                <span>SQL</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-server-line"></i>
+                <span>Django / Flask</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-layout-masonry-line"></i>
+                <span>REST APIs</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-git-branch-line"></i>
+                <span>Git & GitHub</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-amazon-fill"></i>
+                <span>AWS</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-terminal-box-line"></i>
+                <span>Linux & Docker</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-html5-fill"></i>
+                <span>HTML & CSS</span>
+            </div>
+            <div class="skill-item">
+                <i class="ri-javascript-fill"></i>
+                <span>JavaScript</span>
+            </div>
+
+        </section>
+
+        <section id="about" class="about-services">
+            <div class="services-column">
+                <h3 class="section-title">Education & Certs</h3>
+                <div class="services-timeline">
+                    <div class="service-card">
+                        <div class="timeline-dot"></div>
+                        <i class="ri-graduation-cap-line"></i>
+                        <div class="service-info">
+                            <h4>B.E CS & Design (7.0 CGPA)</h4>
+                            <p>Kongu Engineering College (2022–2025)</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="timeline-dot"></div>
+                        <i class="ri-book-read-line"></i>
+                        <div class="service-info">
+                            <h4>Diploma EEE (85%)</h4>
+                            <p>Govt Polytechnic College (2019–2022)</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="timeline-dot"></div>
+                        <i class="ri-award-line"></i>
+                        <div class="service-info">
+                            <h4>Certifications</h4>
+                            <p>Tata Data Visualization & NPTEL Privacy/Security in Online Social Media</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-column">
+                <h3 class="section-title">Professional Summary</h3>
+                <p class="about-text">
+                    Computer Science graduate skilled in Python, Flask, SQL, and full-stack web development. Experience
+                    in building scalable web applications with REST APIs and user-friendly UI/UX. Familiar with
+                    WordPress development, AWS basics, and tools like Git and Postman. Quick learner with strong
+                    problem-solving and collaboration skills.
+                </p>
+
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h3 class="section-title center">Featured Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/project1.png" alt="Shopping Cart Web Application">
+                    </div>
+                    <div class="project-content">
+                        <h4>Shopping Cart Web Application</h4>
+                        <p>Full-stack app using Flask & MySQL. Implemented REST APIs with CRUD operations, dynamic
+                            discounting logic, and automated CI/CD with GitHub Actions.</p>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;"><i
+                                    class="ri-github-fill"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/project2.png" alt="Backend Sales Analytics">
+                    </div>
+                    <div class="project-content">
+                        <h4>Sales & Revenue Analytics</h4>
+                        <p>Analyzed datasets using Python, SQL, and Pandas to identify revenue trends. Calculated MoM
+                            Growth and validated JSON API responses via Postman.</p>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;"><i
+                                    class="ri-github-fill"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/project3.png" alt="PAN Data Validation">
+                    </div>
+                    <div class="project-content">
+                        <h4>PAN Data Validation</h4>
+                        <p>Developed validation logic to enforce structured data rules. Implemented pattern checks,
+                            duplicate detection, and error classification. Generated structured reports for improved
+                            assessment.</p>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;"><i
+                                    class="ri-github-fill"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/project4.png" alt="AWS Load Balancer">
+                    </div>
+                    <div class="project-content">
+                        <h4>AWS Load Balancer Setup</h4>
+                        <p>Configured scalable and highly available application hosting architecture utilizing AWS
+                            Application Load Balancing and robust traffic distribution principles.</p>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;"><i
+                                    class="ri-github-fill"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <h2>Let's Work Together</h2>
+            <p>Chennai | 9655918053 | thivagharbalakumar@gmail.com</p>
+            <div class="social-links">
+                <a href="https://github.com/thivaghar/" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="mailto:thivagharbalakumar@gmail.com"><i class="ri-mail-fill"></i></a>
+                <a href="tel:9655918053"><i class="ri-phone-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Thivaghar K B. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const navLinks = document.getElementById('nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = menuBtn.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('ri-menu-line');
+                icon.classList.add('ri-close-line');
+            } else {
+                icon.classList.remove('ri-close-line');
+                icon.classList.add('ri-menu-line');
+            }
+        });
+
+        // Sticky Navbar
+        const header = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+    </script>
+</body>
+
+</html>
